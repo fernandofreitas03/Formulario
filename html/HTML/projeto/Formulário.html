@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="fieldset">
+        <legend><b>Cadastro</b></legend>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label class="labels">
+                Nome:
+                
+                <input class="inputs"  type="text" placeholder="Digite seu nome" name="nome" required>
+            </label>
+            
+            <label class="labels">
+                Email:
+                
+                <input class="inputs"  type="email" placeholder="Digite seu email" name="email" required>
+            </label>
+            
+            <label class="labels">
+                Idade:
+                
+                <input class="inputs"  type="number" placeholder="Digite sua idade" name="idade" required min="12">
+            </label>
+            
+            <label class="labels">
+                Data de Nascimento:
+                
+                <input class="inputs"  type="date" name="Data" required>
+            </label>
+            
+            <label class="labels">
+                <div class="bottons">Onde você possui conta?</div>
+                
+                <input  class="inputs3"  type="checkbox" name="Instagram"> Instagram
+                <input  class="inputs3"  type="checkbox" name="Facebook"> Facebook
+                <input  class="inputs3" type="checkbox" name="Youtube"> Youtube
+            </label>
+            
+            <label class="labels">
+                <div class="bottons">Sexo:</div>
+                
+                <input class="inputs2"  type="radio" name="Sexo"> Feminino
+                <input class="inputs2"  type="radio" name="Sexo"> Masculino
+            </label>
+            
+            <label class="labels">
+                Cor dos olhos:
+                <input class="inputs-olho"  type="color" name="cor" required>
+            </label>
+            
+            <label class="labels">
+                Biografia:
+                
+                <textarea class='textarea' name="biografia"></textarea>
+            </label>
+            
+            <label class="labels">
+                Foto do perfil:
+                
+                <input class="photo-inputs"  type="file" accept="image/*" name="foto" required>
+            </label>
+            
+            
+            <label class="labels">
+                Telefone:
+                
+                <input class="inputs"  type="tel" placeholder="Digite seu telefone" name="telefone" inputmode="numeric" required>
+            </label>
+            
+                        
+            <label class="labels">
+                Link do Perfil do Facebook:
+                
+                <input class="inputs"  type="url" placeholder="Digite seu link" name="link" required>
+            </label>
+            
+            
+            <label class="labels">
+                Senha:
+                
+                <input class="inputs"  type="password" placeholder="Digite sua senha" minlength="6" maxlength="8" name="senha" required>
+            </label>
+            
+            <button class="buttons11"  type="reset" name="reset">Limpar</button>
+            <button class="buttons11"  type="submit" name="submit">Enviar Dados</button>
+        </form>
+    </div>
+ 
+
+
+</body>
+
+</html>
