@@ -4,15 +4,12 @@
 
 > Resultado do projeto!
 
-### Ajustes e melhorias
+### Linguanges usadas no Projeto:
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+- [x] HTML
+- [x] CSS
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+
 
 
 
@@ -24,9 +21,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/101847876?s=400&u=dcfec5a2fe201fc639faa0390595dd4ef6cf634b&v=4" width="150px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Fernando Freitas</b>
         </sub>
       </a>
     </td>
