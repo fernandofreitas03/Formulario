@@ -9,8 +9,8 @@
  }
  body{
     background-color: black;
-    width: 30%;
-    margin-left:650px ;
+    width: 40%;
+    margin-left: 430px ;
  }
 
 
@@ -29,6 +29,7 @@ legend {
     position: relative;
     width: 100%;
     background-color: aqua;
+    height: 100%;
 }
 
 .labels{
@@ -54,7 +55,7 @@ legend {
     border: 2px solid blue;
     background-color: white;
     font-size: 13px;
-    
+    margin-bottom: 10px;
 }
 
 button:hover{
